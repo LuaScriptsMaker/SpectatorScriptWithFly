@@ -299,7 +299,7 @@ local function addParticlesToCharacter(character)
             emitter.Rate = 385 -- Увеличен в 5 раз
             
             -- Настройки прозрачности (50%)
-            emitter.Transparency = NumberSequence.new(0)
+            emitter.Transparency = NumberSequence.new(0.5)
             
             -- Настройки цвета (белый)
             emitter.Color = ColorSequence.new(Color3.new(1, 1, 1))
